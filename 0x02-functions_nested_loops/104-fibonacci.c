@@ -29,10 +29,10 @@ int main(void)
 	aftr1 = (aftr / l);
 	aftr2 = (aftr % l);
 
-	for ( i = 92; i < 99; i++)
+	for (i = 92; i < 99; i++)
 	{
 		printf(", %lu", aftr1 + (aftr2 / l));
-		printf("%lu",aftr2 % l);
+		printf("%lu", aftr2 % l);
 		aftr1 = aftr1 + bfr1;
 		bfr1 = aftr1 - bfr1;
 		aftr2 = aftr2 + bfr2;
