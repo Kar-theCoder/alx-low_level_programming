@@ -3,7 +3,7 @@
 /**
  * puts_half - A function that prints half of the string
  *
- * @str: The string to be printed 
+ * @str: The string to be printed
  *
  */
 
@@ -12,8 +12,10 @@ void puts_half(char *str)
 	int s;
 	int n;
 	int length;
+	
+	length = 0;
 
-	for ( s = 0; str [s] != '\0'; s++)
+	for (s = 0; str[s] != '\0'; s++)
 		length++;
 	n = (length / 2);
 
