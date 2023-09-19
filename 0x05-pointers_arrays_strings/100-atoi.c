@@ -11,7 +11,7 @@
 
 int _atoi(char *s)
 {
-	int i; neg; n; length; v; num;
+	int i, neg, n, length, v, num;
 
 	i = 0;
 	neg = 0;
