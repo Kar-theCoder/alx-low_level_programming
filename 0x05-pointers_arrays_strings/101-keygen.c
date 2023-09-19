@@ -20,15 +20,15 @@ int main(void)
 
 	for ( a = 0; a < 100; a++)
 	{
-		pass[a] = rand() % 78;
-		summ += (pass[a] + '0');
-		_putchar(pass[a] + '0');
+		password[a] = rand() % 78;
+		summ += (password[a] + '0');
+		putchar(password[a] + '0');
 
 		if ((2772 - sum) - '0' < 78)
 		{
 			num = 2772 - summ - '0';
 			summ += num;
-			_putchar(n + '0');
+			putchar(n + '0');
 			break;
 		}
 	}
