@@ -3,20 +3,15 @@
 /**
  * _atoi - A function that convrts a string to an int
  *
- * @s: The string to be converted 
+ * @s: The string to be converted
  *
  * Return: The integer value
  *
  */
 
-int _atoi(char*s)
+int _atoi(char *s)
 {
-	int i;
-	int neg;
-	int n;
-	int length;
-	int v;
-	int num;
+	int i; neg; n; length; v; num;
 
 	i = 0;
 	neg = 0;
@@ -53,5 +48,3 @@ int _atoi(char*s)
 
 	return (n);
 }
-
-
